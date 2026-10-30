@@ -36,7 +36,6 @@ body {
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
-/* Profile Picture / Logo Style */
 .profile-img {
   width: 100px;
   height: 100px;
@@ -47,7 +46,91 @@ body {
 }
 
 .profile-name {
-    <!-- WhatsApp Link -->
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.profile-bio {
+  font-size: 13px;
+  color: #b0b0b5;
+  margin-bottom: 25px;
+}
+
+.links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  padding: 14px 20px;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  transition: transform 0.2s, opacity 0.2s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.social-btn:active {
+  transform: scale(0.97);
+}
+
+.social-btn i {
+  font-size: 22px;
+  margin-right: 15px;
+  width: 30px;
+  text-align: center;
+}
+
+.btn-text {
+  flex: 1;
+  text-align: left;
+}
+
+.youtube { background: #FF0000; color: #fff; }
+.tiktok { background: #000000; border: 1px solid #333; color: #fff; }
+.facebook { background: #1877F2; color: #fff; }
+.whatsapp { background: #25D366; color: #fff; }
+
+.footer {
+  margin-top: 30px;
+  font-size: 11px;
+  color: #777;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="https://i.postimg.cc/MGCfD0zJ/Lumii-20260115-105725427.jpg" alt="Profile" class="profile-img" />
+  
+  <div class="profile-name">Toseef Raza</div>
+  <div class="profile-bio">میرے تمام سوشل میڈیا لنکس ایک ہی جگہ پر موجود ہیں، فالو کریں!</div>
+
+  <div class="links-list">
+    <a href="https://youtube.com/@toseefqadri1?si=mmHI7mRgAoqrmZmA" target="_blank" class="social-btn youtube">
+      <i class="fab fa-youtube"></i>
+      <span class="btn-text">YouTube</span>
+      <i class="fas fa-chevron-right" style="font-size: 12px; opacity: 0.7;"></i>
+    </a>
+
+    <a href="https://www.tiktok.com/@toseef.raza.official2?_r=1&_t=ZS-9AyiQtpmNl7" target="_blank" class="social-btn tiktok">
+      <i class="fab fa-tiktok"></i>
+      <span class="btn-text">TikTok</span>
+      <i class="fas fa-chevron-right" style="font-size: 12px; opacity: 0.7;"></i>
+    </a>
+
+    <a href="https://www.facebook.com/share/1HYc3m4xBH/" target="_blank" class="social-btn facebook">
+      <i class="fab fa-facebook-f"></i>
+      <span class="btn-text">Facebook</span>
+      <i class="fas fa-chevron-right" style="font-size: 12px; opacity: 0.7;"></i>
+    </a>
+
     <a href="https://whatsapp.com/channel/0029Vb6CHezId7nVGHFiaj3D" target="_blank" class="social-btn whatsapp">
       <i class="fab fa-whatsapp"></i>
       <span class="btn-text">WhatsApp Channel</span>
